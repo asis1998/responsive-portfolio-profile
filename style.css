@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    
+
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 10%;
+  
+    
+    width: 450px;
+    height: 500px;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    position: relative;
+    box-shadow: -5px 10px 10px 5px rgba(0, 0, 0, 0.173)
+    
+    
+    
+
+}
+
+div>.image{
+    position: absolute;
+   background:white;
+   border: 2px solid rgb(100, 100, 239);
+   height: 150px;
+   width: 150px;
+   border-radius: 60%;
+   top: 80px;
+   left: 160px;
+   margin-top: 30px;
+}
+
+
+.container .profile-img div .image img{
+  position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 60%;
+    top: 4px;
+    left: 4px;
+}
+.title{
+    color: gray;
+}
+
+
+
+.wallpaper-color{
+    width: 448px;
+    height: 30vh;
+    background: rgb(100, 100, 239);
+ border-top-left-radius: 19px;
+ border-top-right-radius: 19px;
+
+}
+
+.line{
+    background: grey;
+    width: 2px;
+    height: 20px;
+}
+.info{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.links{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-bottom: 20px;
+}
+.links i:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.links i{
+    color: white;
+padding: 10px 10px;
+border-radius: 50%;
+}
+.links i:nth-child(1){
+    color: white;
+padding: 10px 15px;
+border-radius: 50%;
+}
+.links i:nth-child(1){
+    background: #243e6b;
+    
+    }
+
+.links i:nth-child(2){
+background: #76a7fd;
+
+}
+.links i:nth-child(3){
+    background: #f57f7f;
+    
+    }
+    .links i:nth-child(4){
+        background: #e44845;
+        
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+           
+        }
+        button{
+            background:rgb(100, 100, 239) ;
+            padding: 10px 50px;
+            border-radius: 40px;
+            border: none;
+            color: white;
+            font-size: 15px;
+        }
+        button:hover{
+            opacity: 0.7;
+            cursor: pointer;
+        }
+        .followers{
+            display: flex;
+            justify-content: space-evenly;
+           align-items: center;
+           margin-top: 20px;
+        
+        }
+        .followers:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        @media (min-width:320px){
+
+div>.image{
+    position: absolute;
+   background:white;
+   border: 2px solid rgb(100, 100, 239);
+   height: 150px;
+   width: 150px;
+   border-radius: 60%;
+   top: 70px;
+   left: 160px;
+}
+/* image  */
+
+.container .profile-img div .image img{
+  position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 60%;
+    top: 3px;
+    left: 4px; 
+    
+}
+
+        }
+
+
+        
+
+        
+                    
+    
+
+
